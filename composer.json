@@ -1,0 +1,14 @@
+{
+  "name": "kilingzhang/smartqq-demo",
+  "description": "smartqq-sdk-php demo",
+  "license": "MIT",
+  "require": {
+    "kilingzhang/smartqq-sdk-php": "dev-master"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
