@@ -24,5 +24,5 @@ use kilingzhang\SmartQQ\QQClient;
 require 'Application.php';
 
 
-$discussList = $QQ->getDiscusList();
+$discussList = $QQ->getDiscussList();
 echo json_encode($discussList,JSON_UNESCAPED_UNICODE);

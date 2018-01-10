@@ -36,7 +36,7 @@ class MessageSaveByFile implements PollMsgInterface
         Logger::m($log);
     }
 
-    public function DiscusMessage(ResponseMessage $message)
+    public function DiscussMessage(ResponseMessage $message)
     {
         $fromUin = $message->fromUin;
         $toUin = $message->toUin;

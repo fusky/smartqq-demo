@@ -2,3 +2,6 @@
 /log/
 /message/
 .idea/
+/app/qrcode.png
+qrcode.png
+/app/ClientToken.json

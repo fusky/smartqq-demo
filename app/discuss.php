@@ -57,5 +57,5 @@ $did = isset($_GET['did']) ? $_GET['did'] : '';
 if($did == ''){
     return '{"code":65535,"msg":"参数缺失"}';
 }
-$discuss = $QQ->getDiscusInfoByDid($did);
+$discuss = $QQ->getDiscussInfoByDid($did);
 echo json_encode($discuss,JSON_UNESCAPED_UNICODE);

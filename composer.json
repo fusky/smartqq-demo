@@ -3,7 +3,7 @@
   "description": "smartqq-sdk-php demo",
   "license": "MIT",
   "require": {
-    "kilingzhang/smartqq-sdk-php": "dev-master"
+    "kilingzhang/smartqq-sdk-php": "~1.0.0"
   },
   "repositories": {
     "packagist": {

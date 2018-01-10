@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f9385c1d78a73520573e81d9a1d15e6",
+    "content-hash": "e069434ffb3636390b62f0e0f9c88776",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -189,16 +189,16 @@
         },
         {
             "name": "kilingzhang/smartqq-sdk-php",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kilingzhang/smartqq-sdk-php.git",
-                "reference": "a2986c594c9f0a8208b2ba648c772eb9204ea799"
+                "reference": "ffb922f3eb2385bd06ffb524812be8129827dc24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/kilingzhang/smartqq-sdk-php/a2986c594c9f0a8208b2ba648c772eb9204ea799.zip",
-                "reference": "a2986c594c9f0a8208b2ba648c772eb9204ea799",
+                "url": "https://files.phpcomposer.com/files/kilingzhang/smartqq-sdk-php/ffb922f3eb2385bd06ffb524812be8129827dc24.zip",
+                "reference": "ffb922f3eb2385bd06ffb524812be8129827dc24",
                 "shasum": ""
             },
             "require": {
@@ -235,7 +235,7 @@
                 "webqq",
                 "协议"
             ],
-            "time": "2018-01-10T06:14:13+00:00"
+            "time": "2018-01-10T17:40:11+00:00"
         },
         {
             "name": "psr/http-message",
@@ -291,9 +291,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "kilingzhang/smartqq-sdk-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

@@ -2,7 +2,7 @@
 use kilingzhang\SmartQQ\QQClient;
 use kilingzhang\SmartQQ\Entity\ClientToken;
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 require 'Logger.php';
 date_default_timezone_set('Asia/Shanghai');
 //初始化QQClient,后续讲基于此会话调用各种方法

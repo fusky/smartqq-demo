@@ -9,7 +9,7 @@
 class Logger
 {
 
-    public static function i($msg, $path = 'log')
+    public static function i($msg, $path = '../log')
     {
         if (!is_dir($path)) {
             mkdir($path);
@@ -19,7 +19,7 @@ class Logger
         file_put_contents($filename, $log, FILE_APPEND);
     }
 
-    public static function m($msg, $path = 'message')
+    public static function m($msg, $path = '../message')
     {
         if (!is_dir($path)) {
             mkdir($path);

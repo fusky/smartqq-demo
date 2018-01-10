@@ -17,4 +17,4 @@ $msg = isset($_GET['msg']) ? $_GET['msg'] : '';
 if($did == '' || $msg == ''){
     exit('{"code":65535,"msg":"参数缺失"}');
 }
-echo json_encode($QQ->sendDiscusMsg($did,$msg),JSON_UNESCAPED_UNICODE);
+echo json_encode($QQ->sendDiscussMsg($did,$msg),JSON_UNESCAPED_UNICODE);
